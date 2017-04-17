@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     android:background="#a7a7a7"
     tools:context="com.example.riaditelka.myapplication.Chemia_MolarnyObjem">
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:elevation="15dp"
+        app:srcCompat="@mipmap/ic_back"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintVertical_bias="0.0" />
     <TextView
         android:id="@+id/txt_nav_Chemia_MolarnyObjem"
         android:layout_width="wrap_content"

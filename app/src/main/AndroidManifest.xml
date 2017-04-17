@@ -58,7 +58,11 @@
         <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infoyvtgt2" />
         <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infot2hg" />
         <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infodv2hg" />
-        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infov2ghv"></activity>
+        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infov2ghv" />
+        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoxxvtcosalfa" />
+        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoyyvtsinalfagt" />
+        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infodvgsin2alfa" />
+        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoymaxvsinalfa2g"></activity>
     </application>
 
 </manifest>

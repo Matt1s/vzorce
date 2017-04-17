@@ -6,7 +6,18 @@
     android:layout_height="match_parent"
     android:background="#a7a7a7"
     tools:context="com.example.riaditelka.myapplication.Chemia_ChemickeMnozstvo_Info">
-
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:elevation="15dp"
+        app:srcCompat="@mipmap/ic_back"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintVertical_bias="0.0" />
     <ImageView
         android:id="@+id/img_Armm"
         android:layout_width="150dp"
@@ -70,7 +81,7 @@
         android:id="@+id/textView"
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:text="Atomová relatívna hmotnosť "
+        android:text="Atomová relatívna hmotnosť [bezrozmerné] "
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="15sp"
@@ -107,9 +118,9 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="200dp"
-        android:layout_height="20dp"
-        android:text="Skutočná hmotnosť (prvku)"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="Skutočná hmotnosť (prvku) [kg]"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="15sp"
@@ -124,7 +135,7 @@
         android:id="@+id/textView3"
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:text="Atómová hmotnostná konštanta (1,66057 * 10⁻²⁴)"
+        android:text="Atómová hmotnostná konštanta [1,66057 * 10⁻²⁴]"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="15sp"
