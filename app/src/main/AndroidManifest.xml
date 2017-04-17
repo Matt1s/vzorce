@@ -53,7 +53,12 @@
         <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info1" />
         <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info2" />
         <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info3" />
-        <activity android:name=".Fyzika_Vrhy"/>
+        <activity android:name=".Fyzika_Vrhy" />
+        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infoxvt" />
+        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infoyvtgt2" />
+        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infot2hg" />
+        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infodv2hg" />
+        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infov2ghv"></activity>
     </application>
 
 </manifest>
