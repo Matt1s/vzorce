@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.example.riaditelka.myapplication.Chemia_ChemickeMnozstvo">
+    tools:context="com.example.riaditelka.myapplication.Chemia_Roztoky">
     <TextView
-        android:id="@+id/txt_nav_Chemia_ChemickeMnozstvo"
+        android:id="@+id/txt_nav_Chemia_Roztoky"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="15dp"
-        android:text="Chémia > Chemické množstvo >"
+        android:text="Chémia > Roztoky >"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -32,23 +32,22 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-        android:id="@+id/txt_ChemickeMnozstvo"
+        android:id="@+id/txt_Roztoky"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="10dp"
         android:layout_marginEnd="10dp"
         android:elevation="15dp"
-        android:padding="0dp"
-        android:text="Chemické množstvo"
-        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="25sp"
         android:textColor="#ffffff"
-        android:textSize="30sp"
+        android:text="ROZTOKY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013" />
+        app:layout_constraintVertical_bias="0.02"  />
 
     <ScrollView
         android:layout_width="wrap_content"

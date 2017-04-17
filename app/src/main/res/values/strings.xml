@@ -9,7 +9,7 @@
     <string name="a_b_a_b_a_b">a² - b² = ( a + b ) * ( a - b )</string>
     <string name="d_0_x_b_2a">D=0 : x = -b / 2a</string>
     <string name="fyzika">Fyzika</string>
-    <string name="matematika">Matematika</string>
+    <string name="matematika">MATEMATIKA</string>
     <string name="ch_mia">Chémia</string>
     <string name="info">info</string>
 </resources>

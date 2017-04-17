@@ -6,9 +6,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:allowBackup="true"
-        android:icon="@mipmap/ikonka1"
+        android:icon="@mipmap/ikonka2"
         android:label="VZORCE"
-        android:roundIcon="@mipmap/ikonka1"
+        android:roundIcon="@mipmap/ikonka2"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".MainActivity">
@@ -23,7 +23,6 @@
         <activity android:name=".Matematika_Vyrazy" />
         <activity android:name=".Matematika_KvadratickeRovnice" />
         <activity android:name=".Fyzika_Dynamika" />
-        <activity android:name=".Fyzika_Vrhy" />
         <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor" />
         <activity android:name=".Fyzika_Vrhy_VrhVodorovny" />
         <activity android:name=".Fyzika_Vrhy_VrhSikmy" />
@@ -53,7 +52,8 @@
         <activity android:name=".Fyzika_Dynamika_Info3" />
         <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info1" />
         <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info2" />
-        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info3"></activity>
+        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info3" />
+        <activity android:name=".Fyzika_Vrhy"/>
     </application>
 
 </manifest>

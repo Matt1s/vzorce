@@ -12,6 +12,7 @@ public class Fyzika_Vrhy extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__vrhy);
+
         Button btn_VrhZvisloNahor = (Button)findViewById(R.id.btn_VrhZvisloNahor);
         btn_VrhZvisloNahor.setOnClickListener(new View.OnClickListener()
         {
@@ -36,6 +37,5 @@ public class Fyzika_Vrhy extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),Fyzika_Vrhy_VrhSikmy.class);
                 startActivity(intent);
             }});
-
     }
 }

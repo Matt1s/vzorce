@@ -38,17 +38,16 @@
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
         android:elevation="15dp"
-        android:padding="0dp"
-        android:text="Dynamika"
-        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="25sp"
         android:textColor="#ffffff"
-        android:textSize="30sp"
+        android:text="DYNAMIKA"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013" />
+        app:layout_constraintVertical_bias="0.02"  />
 
     <ScrollView
         android:layout_width="wrap_content"
