@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.riaditelka.myapplication">
+
+    <application xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:allowBackup="true"
+        android:icon="@mipmap/ikonka1"
+        android:label="VZORCE"
+        android:roundIcon="@mipmap/ikonka1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Matematika" />
+        <activity android:name=".Fyzika" />
+        <activity android:name=".Matematika_Vyrazy" />
+        <activity android:name=".Matematika_KvadratickeRovnice" />
+        <activity android:name=".Fyzika_Dynamika" />
+        <activity android:name=".Fyzika_Vrhy" />
+        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor" />
+        <activity android:name=".Fyzika_Vrhy_VrhVodorovny" />
+        <activity android:name=".Fyzika_Vrhy_VrhSikmy" />
+        <activity android:name=".Chemia" />
+        <activity android:name=".Chemia_LatkoveMnozstvo" />
+        <activity android:name=".Chemia_LatkoveMnozstvo_Info" />
+        <activity android:name=".Chemia_MolarnyObjem" />
+        <activity android:name=".Chemia_MolarnyObjem_Info" />
+        <activity android:name=".Chemia_ChemickeMnozstvo" />
+        <activity android:name=".Chemia_ChemickeMnozstvo_Info" />
+        <activity android:name=".Chemia_ChemickeMnozstvo_Info2" />
+        <activity android:name=".Chemia_MolarnaHmotnost" />
+        <activity android:name=".Chemia_MolarnaHmotnost_Info" />
+        <activity android:name=".Chemia_Roztoky" />
+        <activity android:name=".Chemia_Roztoky_Info1" />
+        <activity android:name=".Chemia_Roztoky_Info2" />
+        <activity android:name=".Chemia_Roztoky_Info3" />
+        <activity android:name=".Fyzika_Kinematika" />
+        <activity android:name=".Fyzika_Kinematika_Infovst" />
+        <activity android:name=".Fyzika_Kinematika_Infotva" />
+        <activity android:name=".Fyzika_Kinematika_Infosat2" />
+        <activity android:name=".Fyzika_Kinematika_Infov2as" />
+        <activity android:name=".Fyzika_Kinematika_Infoa2sv" />
+        <activity android:name=".Fyzika_Kinematika_Infosvv2a" />
+        <activity android:name=".Fyzika_Dynamika_Info1" />
+        <activity android:name=".Fyzika_Dynamika_Info2" />
+        <activity android:name=".Fyzika_Dynamika_Info3" />
+        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info1" />
+        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info2" />
+        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info3"></activity>
+    </application>
+
+</manifest>

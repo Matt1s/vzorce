@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="d_0_x_prazdnamnozina"><![CDATA[D<0 : x = Ø]]></string>
+    <string name="a_b_a_plus_2ab_b">( a + b )² = a² + 2ab + b²</string>
+    <string name="a_b_a_minus_2ab_b">( a - b )² = a² - 2ab + b²</string>
+    <string name="d_0_x_x_b_d_2a"><![CDATA[D>0 : x₁;x₂ = (-b±√D) / 2a]]></string>
+    <string name="vzorce">VZORCE</string>
+    <string name="d_b_4ac">D = b² - 4ac</string>
+    <string name="a_b_a_b_a_b">a² - b² = ( a + b ) * ( a - b )</string>
+    <string name="d_0_x_b_2a">D=0 : x = -b / 2a</string>
+    <string name="fyzika">Fyzika</string>
+    <string name="matematika">Matematika</string>
+    <string name="ch_mia">Chémia</string>
+    <string name="info">info</string>
+</resources>
