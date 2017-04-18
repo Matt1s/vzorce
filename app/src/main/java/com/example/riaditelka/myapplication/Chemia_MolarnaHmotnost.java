@@ -25,5 +25,16 @@ public class Chemia_MolarnaHmotnost extends AppCompatActivity {
 
 
         });
+        ImageView img_back = (ImageView) findViewById(R.id.img_back);
+        final Context context4 =this;
+        img_back.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context4, Chemia.class);
+                startActivity(intent);
+            }
+
+
+        });
     }
 }

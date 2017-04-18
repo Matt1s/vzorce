@@ -59,5 +59,17 @@ public class Fyzika_Vrhy_VrhVodorovny extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageView img_back = (ImageView) findViewById(R.id.img_back);
+        final Context context5 =this;
+        img_back.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context, Fyzika_Vrhy.class);
+                startActivity(intent);
+            }
+
+
+        });
     }
 }
