@@ -17,21 +17,45 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/txt_nav"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        android:text="Matematika > Výrazy >"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:background="#002EB8"
+        android:elevation="10dp"
+        android:padding="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <TextView
         android:id="@+id/txt_Vyrazy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:elevation="15dp"
         android:padding="0dp"
-        android:paddingLeft="0dp"
-        android:text="VÝRAZY"
-        android:textAlignment="center"
-        android:textColor="#ffffff"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="VÝRAZY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -39,81 +63,128 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.02"  />
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="380dp"
-        android:layout_height="60dp"
-        android:background="#002EB8"
-        android:elevation="10dp"
-        android:padding="0dp"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/Theme.AppCompat.Light"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:id="@+id/txtMatematika_Vyrazy"
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:elevation="15dp"
-        android:text="Matematika > Výrazy >"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078" />
+        android:scrollbarStyle="insideOverlay"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
-    <TextView
-        android:id="@+id/Matematika_Vyrazy_AplusB2"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:background="#a7a7a7"
-        android:padding="12dp"
-        android:text="@string/a_b_a_plus_2ab_b"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
-    <TextView
-        android:id="@+id/Matematika_Vyrazy_AminusB2"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:background="#a7a7a7"
-        android:padding="12dp"
-        android:text="@string/a_b_a_minus_2ab_b"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.30" />
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/Matematika_Vyrazy_A2B2"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:background="#a7a7a7"
-        android:padding="12dp"
-        android:text="@string/a_b_a_b_a_b"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+            <ImageView
+                android:id="@+id/img_aba2bb"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="100dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/vzorec_aplusbnadruhu" />
 
+            <ImageView
+                android:id="@+id/img_ab_a2bb"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/vzorec_aminusbnadruhu" />
 
+            <ImageView
+                android:id="@+id/img_"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/vzorec_aplusbnatretiu" />
+
+            <ImageView
+                android:id="@+id/img_v2as"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/vzorec_aminusbnatretiu" />
+
+            <ImageView
+                android:id="@+id/img_ababab"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/vzorec_anadruhuminusbnadruhu" />
+
+            <ImageView
+                android:id="@+id/img_ababaabb"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/vzorec_anatretiuplusbnatretiu" />
+
+            <ImageView
+                android:id="@+id/img_ab_abaabb"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/vzorec_anatretiuminusbnatretiu" />
+
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
