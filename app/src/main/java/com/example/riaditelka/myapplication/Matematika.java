@@ -15,6 +15,18 @@ public class Matematika extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matematika);
 
+        ImageView img_back = (ImageView) findViewById(R.id.img_back);
+        final Context context4 =this;
+        img_back.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context4, MainActivity.class);
+                startActivity(intent);
+            }
+
+
+        });
+
         Button btn_Vyrazy = (Button)findViewById(R.id.btn_Vyrazy);
         btn_Vyrazy.setOnClickListener(new View.OnClickListener()
         {
@@ -31,16 +43,15 @@ public class Matematika extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),Matematika_KvadratickeRovnice.class);
                 startActivity(intent);
-            }});
-        ImageView img_back = (ImageView) findViewById(R.id.img_back);
-        final Context context4 =this;
-        img_back.setOnClickListener(new View.OnClickListener(){
+        }});
+        Button btn_Mocniny = (Button)findViewById(R.id.btn_Mocniny);
+        btn_Mocniny.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(context4, MainActivity.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Mocniny.class);
                 startActivity(intent);
-            }
+            }});
 
 
-        });
 }}

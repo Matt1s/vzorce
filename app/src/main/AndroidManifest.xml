@@ -62,7 +62,8 @@
         <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoxxvtcosalfa" />
         <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoyyvtsinalfagt" />
         <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infodvgsin2alfa" />
-        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoymaxvsinalfa2g"></activity>
+        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoymaxvsinalfa2g" />
+        <activity android:name=".Matematika_Mocniny" />
     </application>
 
 </manifest>
