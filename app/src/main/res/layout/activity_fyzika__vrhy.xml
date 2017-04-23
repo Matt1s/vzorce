@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context="com.example.riaditelka.myapplication.Fyzika_Vrhy"
     android:background="#a7a7a7">
+
+    <TextView
+        android:id="@+id/txt_nav"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:elevation="12dp"
+        android:text="Fyzika> Vrhy >"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
     <ImageView
         android:id="@+id/img_back"
         android:layout_width="60dp"
@@ -18,19 +31,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0.0" />
-    <TextView
-        android:id="@+id/txt_nav"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:elevation="15dp"
-        android:text="Fyzika > Vrhy >"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078" />
-
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="380dp"
@@ -41,58 +41,81 @@
         app:popupTheme="@style/Theme.AppCompat.Light"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="0dp" />
-
     <TextView
         android:id="@+id/txt_Vrhy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
         android:elevation="15dp"
         android:padding="0dp"
+        android:text="Vrhy"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="25sp"
-        android:textColor="#ffffff"
-        android:text="VRHY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02"  />
+        app:layout_constraintVertical_bias="0.02" />
 
-    <Button
-        android:background="#505050"
-        android:id="@+id/btn_VrhZvisloNahor"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:text="Vrh zvislo nahor"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.20"/>
 
-    <Button
-        android:background="#505050"
-        android:id="@+id/btn_VrhVodorovny"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:text="Vrh vodorovný"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35"/>
-    <Button
-        android:background="#505050"
-        android:id="@+id/btn_VrhSikmy"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:text="Vrh šikmý"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.50"/>
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:scrollbarStyle="insideOverlay">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_VrhZvisloNahor"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Vrh zvislo nahor"
+                android:background="#505050"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.2"/>
+
+
+            <Button
+                android:id="@+id/btn_VrhVodorovny"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="#505050"
+                android:text="Vrh vodorovný"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.35" />
+
+            <Button
+                android:background="#505050"
+                android:id="@+id/btn_VrhSikmy"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Vrh šikmý"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.35"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
 </android.support.constraint.ConstraintLayout>

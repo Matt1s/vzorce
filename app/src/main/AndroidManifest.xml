@@ -11,150 +11,200 @@
         android:roundIcon="@mipmap/ikonka2"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Matematika"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden" />
-        <activity android:name=".Fyzika"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Matematika_Vyrazy"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Matematika_KvadratickeRovnice"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
+        <activity
+            android:name=".Matematika"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Vyrazy"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_KvadratickeRovnice"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity android:name=".Fyzika_Dynamika" />
-        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhVodorovny"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhSikmy"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_LatkoveMnozstvo"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_LatkoveMnozstvo_Info"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_MolarnyObjem"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_MolarnyObjem_Info"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_ChemickeMnozstvo"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_ChemickeMnozstvo_Info"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_ChemickeMnozstvo_Info2"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_MolarnaHmotnost"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_MolarnaHmotnost_Info"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_Roztoky"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_Roztoky_Info1"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Chemia_Roztoky_Info2"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden" />
-        <activity android:name=".Chemia_Roztoky_Info3"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Kinematika"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Kinematika_Infovst"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Kinematika_Infotva"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Kinematika_Infosat2"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Kinematika_Infov2as"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Kinematika_Infoa2sv"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Kinematika_Infosvv2a"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Dynamika_Info1"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Dynamika_Info2"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Dynamika_Info3"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info1"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info2"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info3"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infoxvt"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infoyvtgt2"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infot2hg"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infodv2hg"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhVodorovny_Infov2ghv"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoxxvtcosalfa"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoyyvtsinalfagt"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infodvgsin2alfa"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Fyzika_Vrhy_VrhSikmy_Infoymaxvsinalfa2g"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
-        <activity android:name=".Matematika_Mocniny"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden"/>
+        <activity
+            android:name=".Fyzika_Vrhy_VrhZvisloNahor"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhVodorovny"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhSikmy"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_LatkoveMnozstvo"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_LatkoveMnozstvo_Info"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_MolarnyObjem"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_MolarnyObjem_Info"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_ChemickeMnozstvo"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_ChemickeMnozstvo_Info"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_ChemickeMnozstvo_Info2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_MolarnaHmotnost"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_MolarnaHmotnost_Info"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_Roztoky"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_Roztoky_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_Roztoky_Info2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chemia_Roztoky_Info3"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Kinematika"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Kinematika_Infovst"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Kinematika_Infotva"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Kinematika_Infosat2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Kinematika_Infov2as"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Kinematika_Infoa2sv"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Kinematika_Infosvv2a"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Dynamika_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Dynamika_Info2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Dynamika_Info3"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhZvisloNahor_Info3"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhVodorovny_Infoxvt"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhVodorovny_Infoyvtgt2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhVodorovny_Infot2hg"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhVodorovny_Infodv2hg"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhVodorovny_Infov2ghv"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhSikmy_Infoxxvtcosalfa"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhSikmy_Infoyyvtsinalfagt"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhSikmy_Infodvgsin2alfa"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Vrhy_VrhSikmy_Infoymaxvsinalfa2g"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Mocniny"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Matematika_Odmocniny" />
+        <activity android:name=".Matematika_LinearnaFunkcia" />
+        <activity android:name=".Matematika_LinearnaRovnica"/>
     </application>
 
 </manifest>

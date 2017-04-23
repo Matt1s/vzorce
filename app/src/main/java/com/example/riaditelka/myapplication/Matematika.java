@@ -52,6 +52,30 @@ public class Matematika extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),Matematika_Mocniny.class);
                 startActivity(intent);
             }});
+        Button btn_Odmocniny = (Button)findViewById(R.id.btn_Odmocniny);
+        btn_Odmocniny.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Odmocniny.class);
+                startActivity(intent);
+            }});
+        Button btn_Linearnafunkcia = (Button)findViewById(R.id.btn_Linearnafunkcia);
+        btn_Linearnafunkcia.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_LinearnaFunkcia.class);
+                startActivity(intent);
+            }});
+        Button btn_Linearnarovnica = (Button)findViewById(R.id.btn_Linearnarovnica);
+        btn_Linearnarovnica.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_LinearnaRovnica.class);
+                startActivity(intent);
+            }});
 
 
 }}
