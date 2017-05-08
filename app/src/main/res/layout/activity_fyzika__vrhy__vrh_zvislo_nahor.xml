@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.example.riaditelka.myapplication.Fyzika_Vrhy_VrhZvisloNahor">
+    tools:context="com.vzorce.app.vzorce.Fyzika_Vrhy_VrhZvisloNahor">
     <ImageView
         android:id="@+id/img_back"
         android:layout_width="60dp"
@@ -16,7 +16,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintVertical_bias="0.0" />
     <TextView
         android:id="@+id/txt_nav_Fyzika_VrhZvisloNahor"
@@ -40,7 +40,7 @@
         android:padding="0dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/Theme.AppCompat.Light"
-        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteX="-7dp"
         tools:layout_editor_absoluteY="0dp" />
 
     <TextView
@@ -57,7 +57,6 @@
         android:textSize="25sp"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -71,16 +70,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:orientation="vertical">
-
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="80dp"
+                android:text="výška výstupu"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
             <ImageView
                 android:id="@+id/img_hv2g"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="100dp"
                 android:background="#808080"
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
@@ -89,38 +99,40 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@mipmap/vzorec_vrhzvislonahor_vyska" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:text="čas výstupu"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
 
             <ImageView
                 android:id="@+id/img_tvg"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginBottom="70dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="0dp"
                 android:background="#808080"
-                android:paddingBottom="10dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
                 android:paddingTop="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@mipmap/vzorec_casvystupu" />
-
-            <ImageView
-                android:id="@+id/img_yvtgt"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="20dp"
-                android:background="#808080"
-                android:paddingBottom="10dp"
-                android:paddingTop="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/vzorec_vrhzospodu" />
 
         </LinearLayout>
     </ScrollView>

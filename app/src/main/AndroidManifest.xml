@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.riaditelka.myapplication">
+    package="com.vzorce.app.vzorce">
 
     <application xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:allowBackup="true"
-        android:icon="@mipmap/ikonka2"
-        android:label="VZORCE"
-        android:roundIcon="@mipmap/ikonka2"
+        android:icon="@mipmap/ikonka3"
+        android:label="Vzorce"
+        android:roundIcon="@mipmap/ikonka3"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
@@ -202,9 +202,91 @@
             android:name=".Matematika_Mocniny"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Matematika_Odmocniny" />
-        <activity android:name=".Matematika_LinearnaFunkcia" />
-        <activity android:name=".Matematika_LinearnaRovnica"/>
+        <activity
+            android:name=".Matematika_Odmocniny"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_LinearnaFunkcia"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_LinearnaRovnica"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikaTuhehoTelesa"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikaTuhehoTelesa_MomentZotrvacnosti"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikaTuhehoTelesa_infomfa"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikeTuhehoTelesa_infoekp"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikeTuhehoTelesa_infoeko"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikeTuhehoTelesa_infoomegavr"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikeTuhehoTelesa_infoomegapit"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikeTuhehoTelesa_infovpirt"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikaTuhehoTelesa_MomentZotrvacnosti_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikaTuhehoTelesa_MomentZotrvacnosti_Info2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikaTuhehoTelesa_MomentZotrvacnosti_Info3"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_MechanikaTuhehoTelesa_MomentZotrvacnosti_Info4"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Fyzika_Hustota"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Fyzika_Hustota_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Fyzika_MechanikeTuhehoTelesa_infofafa"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Fyzika_Sila"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Fyzika_Sila_Info2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Fyzika_Sila_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Fyzika_Teplo"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Fyzika_Teplo_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.example.riaditelka.myapplication.Fyzika_Vrhy_VrhSikmy_Infoyyvtsinalfagt">
+    tools:context="com.vzorce.app.vzorce.Fyzika_Vrhy_VrhSikmy_Infoyyvtsinalfagt">
     <ImageView
         android:id="@+id/img_back"
         android:layout_width="60dp"

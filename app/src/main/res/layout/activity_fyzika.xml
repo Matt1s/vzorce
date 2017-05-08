@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.riaditelka.myapplication.Fyzika"
+    tools:context="com.vzorce.app.vzorce.Fyzika"
     android:background="#a7a7a7">
 
     <TextView
@@ -61,29 +61,16 @@
 
 
     <ScrollView
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:scrollbarStyle="insideOverlay">
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideOverlay"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="3dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <Button
-                android:id="@+id/btn_Kinematika"
-                android:layout_marginTop="80dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:text="Kinematika"
-                android:background="#505050"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.2"/>
-
 
             <Button
                 android:id="@+id/btn_Dynamika"
@@ -92,6 +79,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
+                android:layout_marginTop="80dp"
                 android:background="#505050"
                 android:text="Dynamika"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -101,19 +89,96 @@
                 app:layout_constraintVertical_bias="0.35" />
 
             <Button
-                android:background="#505050"
-                android:id="@+id/btn_Vrhy"
+                android:id="@+id/btn_Hustota"
                 android:layout_width="300dp"
                 android:layout_height="70dp"
-                android:text="Vrhy"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
+                android:layout_marginTop="0dp"
+                android:background="#505050"
+                android:text="Hustota"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35"/>
+                app:layout_constraintVertical_bias="0.35" />
+
+            <Button
+                android:id="@+id/btn_Kinematika"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="0dp"
+                android:background="#505050"
+                android:text="Kinematika"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.2" />
+
+            <Button
+                android:id="@+id/btn_Sila"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="0dp"
+                android:background="#505050"
+                android:text="Sila"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.2" />
+            <Button
+                android:id="@+id/btn_Teplo"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="#505050"
+                android:text="Teplo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.35" />
+            <Button
+                android:id="@+id/btn_TuheTeleso"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="#505050"
+                android:text="Tuhé teleso"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.35" />
+            <Button
+                android:id="@+id/btn_Vrhy"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="#505050"
+                android:text="Vrhy"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.35" />
+
+
 
         </LinearLayout>
     </ScrollView>

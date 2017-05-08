@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.riaditelka.myapplication.Chemia_LatkoveMnozstvo_Info"
+    tools:context="com.vzorce.app.vzorce.Chemia_LatkoveMnozstvo_Info"
     android:background="#a7a7a7">
     <ImageView
         android:id="@+id/img_back"

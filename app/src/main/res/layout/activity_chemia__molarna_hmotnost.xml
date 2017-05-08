@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.example.riaditelka.myapplication.Chemia_MolarnaHmotnost">
+    tools:context="com.vzorce.app.vzorce.Chemia_MolarnaHmotnost">
     <ImageView
         android:id="@+id/img_back"
         android:layout_width="60dp"
@@ -71,16 +71,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:orientation="vertical">
-
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="80dp"
+                android:text="molárna hmotnosť"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
             <ImageView
                 android:id="@+id/img_Mmn"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="0dp"
                 android:background="#808080"
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"

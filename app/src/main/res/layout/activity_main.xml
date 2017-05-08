@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.example.riaditelka.myapplication.MainActivity">
+    tools:context="com.vzorce.app.vzorce.MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"

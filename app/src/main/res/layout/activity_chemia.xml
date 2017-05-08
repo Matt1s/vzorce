@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.example.riaditelka.myapplication.Chemia">
+    tools:context="com.vzorce.app.vzorce.Chemia">
 
     <TextView
         android:id="@+id/txt_nav"
