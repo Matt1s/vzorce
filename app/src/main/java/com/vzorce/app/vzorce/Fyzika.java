@@ -32,6 +32,15 @@ public class Fyzika extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),Fyzika_Teplo.class);
                 startActivity(intent);
             }});
+        Button btn_Elektrina = (Button)findViewById(R.id.btn_Elektrina);
+        btn_Elektrina.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Fyzika_Elektrina.class);
+                startActivity(intent);
+            }});
+
         Button btn_Kinematika = (Button)findViewById(R.id.btn_Kinematika);
         btn_Kinematika.setOnClickListener(new View.OnClickListener()
         {

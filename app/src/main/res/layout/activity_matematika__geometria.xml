@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.vzorce.app.vzorce.Matematika">
+    tools:context="com.vzorce.app.vzorce.Matematika_Geometria">
 
     <TextView
         android:id="@+id/txt_nav"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:elevation="12dp"
-        android:text="Matematika >"
+        android:text="Matematika > Geometria"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -42,13 +42,13 @@
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="0dp" />
     <TextView
-        android:id="@+id/txt_Matematika"
+        android:id="@+id/txt_Geometria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:elevation="15dp"
         android:padding="0dp"
-        android:text="@string/matematika"
+        android:text="GEOMETRIA"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,14 +68,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <Button
-                android:id="@+id/btn_Geometria"
+                android:id="@+id/btn_RovinneUtvary"
                 android:layout_marginTop="80dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_width="300dp"
                 android:layout_height="70dp"
-                android:text="Geometria"
+                android:text="Rovinné útvary"
                 android:background="#505050"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -83,14 +83,14 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.2"/>
             <Button
-                android:id="@+id/btn_Vyrazy"
+                android:id="@+id/btn_PriestoroveUtvary"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_width="300dp"
                 android:layout_height="70dp"
-                android:text="Výrazy"
+                android:text="Priestorové útvary"
                 android:background="#505050"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -99,79 +99,6 @@
                 app:layout_constraintVertical_bias="0.2"/>
 
 
-            <Button
-                android:id="@+id/btn_KvadratickeRovnice"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:background="#505050"
-                android:text="Kvadratické rovnice"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35" />
-
-        <Button
-            android:background="#505050"
-            android:id="@+id/btn_Mocniny"
-            android:layout_width="300dp"
-            android:layout_height="70dp"
-            android:text="Mocniny"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.35"/>
-            <Button
-                android:background="#505050"
-                android:id="@+id/btn_Odmocniny"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:text="Odmocniny"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35"/>
-            <Button
-                android:background="#505050"
-                android:id="@+id/btn_Linearnarovnica"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:text="Lineárna rovnica"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35"/>
-            <Button
-                android:background="#505050"
-                android:id="@+id/btn_Linearnafunkcia"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:text="Lineárna funkcia"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35"/>
-
-
-</LinearLayout>
+        </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vzorce.app.vzorce.Fyzika"
-    android:background="#a7a7a7">
+    android:background="#a7a7a7"
+    tools:context="com.vzorce.app.vzorce.Matematika_Geometria_Rovinne_Stvoruholniky">
 
     <TextView
         android:id="@+id/txt_nav"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:elevation="12dp"
-        android:text="Fyzika >"
+        android:text="Geometria > Rovinné útvary > Štvoruholníky"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -43,13 +42,13 @@
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="0dp" />
     <TextView
-        android:id="@+id/txt_Fyzika"
+        android:id="@+id/txt_Stvoruholniky"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:elevation="15dp"
         android:padding="0dp"
-        android:text="@string/fyzika"
+        android:text="ŠTVORUHOLNÍKY"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,143 +60,91 @@
 
 
     <ScrollView
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scrollbarStyle="insideOverlay"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="3dp">
-
+        android:layout_width="wrap_content"
+        android:scrollbarStyle="insideOverlay">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
             <Button
-                android:id="@+id/btn_Dynamika"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:id="@+id/btn_Stvorec"
                 android:layout_marginTop="80dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Štvorec"
                 android:background="#505050"
-                android:text="Dynamika"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35" />
-
+                app:layout_constraintVertical_bias="0.2"/>
             <Button
-                android:id="@+id/btn_Elektrina"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:id="@+id/btn_Obdlznik"
                 android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Obdĺžnik"
                 android:background="#505050"
-                android:text="Elektrina"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35" />
+                app:layout_constraintVertical_bias="0.2"/>
 
             <Button
-                android:id="@+id/btn_Hustota"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:id="@+id/btn_Kosostvorec"
                 android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Kosoštvorec"
                 android:background="#505050"
-                android:text="Hustota"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35" />
-
+                app:layout_constraintVertical_bias="0.2"/>
             <Button
-                android:id="@+id/btn_Kinematika"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:id="@+id/btn_Rovnobeznik"
                 android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Rovnobežník"
                 android:background="#505050"
-                android:text="Kinematika"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.2" />
-
+                app:layout_constraintVertical_bias="0.2"/>
             <Button
-                android:id="@+id/btn_Sila"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:id="@+id/btn_Lichobeznik"
                 android:layout_marginTop="0dp"
-                android:background="#505050"
-                android:text="Sila"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.2" />
-            <Button
-                android:id="@+id/btn_Teplo"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:background="#505050"
-                android:text="Teplo"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35" />
-            <Button
-                android:id="@+id/btn_TuheTeleso"
                 android:layout_width="300dp"
                 android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:text="Lichobežník"
                 android:background="#505050"
-                android:text="Tuhé teleso"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35" />
-            <Button
-                android:id="@+id/btn_Vrhy"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:background="#505050"
-                android:text="Vrhy"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35" />
-
+                app:layout_constraintVertical_bias="0.2"/>
 
 
         </LinearLayout>
     </ScrollView>
-
-
 </android.support.constraint.ConstraintLayout>

@@ -35,7 +35,14 @@ public class Matematika extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),Matematika_Vyrazy.class);
                 startActivity(intent);
         }});
-
+        Button btn_Geometria = (Button)findViewById(R.id.btn_Geometria);
+        btn_Geometria.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Geometria.class);
+                startActivity(intent);
+            }});
         Button btn_KvadratickeRovnice = (Button)findViewById(R.id.btn_KvadratickeRovnice);
         btn_KvadratickeRovnice.setOnClickListener(new View.OnClickListener()
         {

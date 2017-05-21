@@ -262,31 +262,119 @@
             android:name=".Fyzika_MechanikaTuhehoTelesa_MomentZotrvacnosti_Info4"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Fyzika_Hustota"
+        <activity
+            android:name=".Fyzika_Hustota"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Fyzika_Hustota_Info1"
+        <activity
+            android:name=".Fyzika_Hustota_Info1"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Fyzika_MechanikeTuhehoTelesa_infofafa"
+        <activity
+            android:name=".Fyzika_MechanikeTuhehoTelesa_infofafa"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Fyzika_Sila"
+        <activity
+            android:name=".Fyzika_Sila"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Fyzika_Sila_Info2"
+        <activity
+            android:name=".Fyzika_Sila_Info2"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Fyzika_Sila_Info1"
+        <activity
+            android:name=".Fyzika_Sila_Info1"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Fyzika_Teplo"
+        <activity
+            android:name=".Fyzika_Teplo"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Fyzika_Teplo_Info1"
+        <activity
+            android:name=".Fyzika_Teplo_Info1"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-
+        <activity
+            android:name=".Fyzika_Elektrina"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Seriovo"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Paralelne"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_InfoRUI"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_InfoWUIt"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_InfoPUI"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_InfoPRI"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Seriovo_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Seriovo_Info2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Paralelne_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Paralelne_Info2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Striedavy"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Striedavy_Info1"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Striedavy_Info2"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Striedavy_Info4"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fyzika_Elektrina_Striedavy_Info3"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Geometria"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Matematika_Geometria_Rovinne"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Matematika_Geometria_Rovinne_Stvoruholniky"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Matematika_Geometria_Rovinne_Stvoruholniky_Stvorec"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Matematika_Geometria_Stvorec_Nacrt"/>
     </application>
 
 </manifest>
