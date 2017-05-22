@@ -37,7 +37,10 @@
             android:name=".Matematika_KvadratickeRovnice"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Fyzika_Dynamika" />
+        <activity
+            android:name=".Fyzika_Dynamika"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Fyzika_Vrhy_VrhZvisloNahor"
             android:configChanges="keyboardHidden"
@@ -374,7 +377,10 @@
             android:name=".Matematika_Geometria_Rovinne_Stvoruholniky_Stvorec"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait"/>
-        <activity android:name=".Matematika_Geometria_Stvorec_Nacrt"/>
+        <activity
+            android:name=".Matematika_Geometria_Stvorec_Nacrt"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
