@@ -34,5 +34,45 @@ public class Matematika_Geometria_Rovinne_Stvoruholniky extends AppCompatActivit
                 Intent intent = new Intent(getApplicationContext(),Matematika_Geometria_Rovinne_Stvoruholniky_Stvorec.class);
                 startActivity(intent);
             }});
+        Button btn_Obdlznik = (Button)findViewById(R.id.btn_Obdlznik);
+        btn_Obdlznik.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Rovinne_Stvoruholniky_Obdlznik.class);
+                startActivity(intent);
+            }});
+        Button btn_Kosostvorec = (Button)findViewById(R.id.btn_Kosostvorec);
+        btn_Kosostvorec.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Rovinne_Stvoruholniky_Kosostvorec.class);
+                startActivity(intent);
+            }});
+        Button btn_Kosodlznik = (Button)findViewById(R.id.btn_Kosodlznik);
+        btn_Kosodlznik.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Rovinne_Stvoruholniky_Kosodlznik.class);
+                startActivity(intent);
+            }});
+        Button btn_Rovnobeznik = (Button)findViewById(R.id.btn_Rovnobeznik);
+        btn_Rovnobeznik.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Rovinne_Stvoruholniky_Rovnobeznik.class);
+                startActivity(intent);
+            }});
+        Button btn_Lichobeznik = (Button)findViewById(R.id.btn_Lichobeznik);
+        btn_Lichobeznik.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Rovinne_Stvoruholniky_Lichobeznik.class);
+                startActivity(intent);
+            }});
     }
 }

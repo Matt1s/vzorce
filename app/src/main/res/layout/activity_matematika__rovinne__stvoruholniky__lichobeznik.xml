@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.vzorce.app.vzorce.Fyzika_MechanikaTuhehoTelesa">
+    tools:context="com.vzorce.app.vzorce.Matematika_Rovinne_Stvoruholniky_Lichobeznik">
 
     <ImageView
         android:id="@+id/img_back"
@@ -17,35 +17,48 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintVertical_bias="0.0" />
     <TextView
         android:id="@+id/txt_nav"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:elevation="15dp"
-        android:text="Fyzika > Tuhé teleso >"
+        android:text="Rovinné útvary > Štvoruholníky > Lichobežník"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.07" />
+    <Button
+        android:id="@+id/btn_Nacrt"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@android:color/black"
+        android:elevation="18dp"
+        android:text="NÁČRT"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintVertical_bias="0.016" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="400dp"
         android:layout_height="60dp"
         android:background="#002EB8"
-        android:elevation="10dp"
+        android:elevation="1dp"
         android:padding="0dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/Theme.AppCompat.Light"
-        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteX="-6dp"
         tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-        android:id="@+id/txt_TuheTeleso"
+        android:id="@+id/txt_Lichobeznik"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -55,47 +68,34 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="25sp"
         android:textColor="#ffffff"
-        android:text="TUHÉ TELESO"
+        android:text="LICHOBEŽNÍK"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02"  />
+        app:layout_constraintVertical_bias="0.016"
+        app:layout_constraintHorizontal_bias="0.401" />
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scrollbarStyle="insideOverlay">
+        android:scrollbarStyle="insideOverlay"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btn_J"
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginTop="80dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:text="Moment zotrvačnosti"
-                android:background="#505050"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.2"/>
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
-                android:text="moment sily"
+                android:text="obsah lichobežníka"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -104,145 +104,21 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/img_MFa"
+                android:id="@+id/img_Saa"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="0dp"
-                android:background="#808080"
-                android:paddingBottom="10dp"
-                android:paddingLeft="50dp"
-                android:paddingRight="50dp"
                 android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/vzorec_momentsily" />
+                app:srcCompat="@mipmap/lichobeznik_obsah" />
 
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
-                android:text="rovnováha síl"
-                android:textColor="@android:color/black"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-            <ImageView
-                android:id="@+id/img_FaFa"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="0dp"
-                android:background="#808080"
-                android:paddingBottom="0dp"
-                android:paddingTop="0dp"
-                android:paddingRight="30dp"
-                android:paddingLeft="30dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/vzorec_rovnovahasil" />
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
-                android:text="energia kinetická pohybová"
-                android:textColor="@android:color/black"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-            <ImageView
-                android:id="@+id/img_ekpmv"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="0dp"
-                android:background="#808080"
-                android:paddingBottom="10dp"
-                android:paddingTop="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/vzorec_energiakinetickapohybova" />
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
-                android:text="energia kinetická otáčavá"
-                android:textColor="@android:color/black"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-            <ImageView
-                android:id="@+id/img_ekojomega"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="0dp"
-                android:background="#808080"
-                android:paddingBottom="10dp"
-                android:paddingTop="10dp"
-                android:paddingRight="40dp"
-                android:paddingLeft="40dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/energiakinetickaotacava" />
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
-                android:text="uhlová rýchlosť"
-                android:textColor="@android:color/black"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-            <ImageView
-                android:id="@+id/img_omegavr"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="0dp"
-                android:background="#808080"
-                android:paddingBottom="10dp"
-                android:paddingLeft="65dp"
-                android:paddingRight="65dp"
-                android:paddingTop="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/vzorec_uhlovarychlost" />
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
@@ -250,60 +126,116 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="10dp"
-                android:text="uhlová rýchlosť"
+                android:text="obvod lichobežníka"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+
             <ImageView
-                android:id="@+id/img_omegapit"
+                android:id="@+id/img_o4s"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="0dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:background="#808080"
+                android:paddingBottom="0dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="0dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/vzorec_uhlovarychlost2" />
+                app:srcCompat="@mipmap/lichobeznik_obvod" />
+
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="10dp"
-                android:text="rýchlosť"
+                android:text="výška"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+
             <ImageView
-                android:id="@+id/img_vpirt"
+                android:id="@+id/img_u"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="#808080"
-                android:paddingBottom="20dp"
-                android:paddingLeft="70dp"
-                android:paddingRight="70dp"
-                android:paddingTop="10dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginBottom="70dp"
                 android:layout_marginTop="0dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/vzorec_rychlosttuheteleso" />
+                app:srcCompat="@mipmap/lichobeznik_vyska1" />
+
+            <ImageView
+                android:id="@+id/img_vyska"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/lichobeznik_vyska2" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:text="súčet uhlov"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/img_uhly"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="80dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/lichobeznik_sucetuhlov" />
+
+
+
 
         </LinearLayout>
     </ScrollView>

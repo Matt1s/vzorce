@@ -34,6 +34,30 @@ public class Matematika_Geometria_Rovinne extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),Matematika_Geometria_Rovinne_Stvoruholniky.class);
                 startActivity(intent);
             }});
+        Button btn_Trojuholniky = (Button)findViewById(R.id.btn_Trojuholniky);
+        btn_Trojuholniky.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Geometria_Rovinne_Trojuholniky.class);
+                startActivity(intent);
+            }});
+        Button btn_Nuholniky = (Button)findViewById(R.id.btn_Nuholniky);
+        btn_Nuholniky.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Rovinne_nuholnik.class);
+                startActivity(intent);
+            }});
+        Button btn_Kruhy = (Button)findViewById(R.id.btn_Kruhy);
+        btn_Kruhy.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Matematika_Rovinne_Kruhy.class);
+                startActivity(intent);
+            }});
 
     }
 }

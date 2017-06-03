@@ -31,8 +31,18 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0"
-        app:srcCompat="@mipmap/vzorec_energiakinetickaotacava" />
-
+        app:srcCompat="@mipmap/energiakinetickaotacava" />
+    <ImageView
+        android:id="@+id/img_eko"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:srcCompat="@mipmap/eko"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintVertical_bias="0.3" />
     <ImageView
         android:id="@+id/img_m"
         android:layout_width="40dp"
@@ -119,17 +129,7 @@
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintVertical_bias="0.7" />
 
-    <ImageView
-        android:id="@+id/img_Ekp"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        app:srcCompat="@mipmap/energiakinetickaotacava"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintVertical_bias="0.3" />
+
 
     <TextView
         android:id="@+id/img_v"
