@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.vzorce.app.vzorce.Fyzika_Kinematika_Infosvv2a">
+    tools:context="com.vzorce.vzorce.beta.Fyzika_Kinematika_Infosvv2a">
     <ImageView
         android:id="@+id/img_back"
         android:layout_width="60dp"

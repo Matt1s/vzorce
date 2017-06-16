@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.vzorce.app.vzorce.Fyzika_Kinematika_Infovst">
+    tools:context="com.vzorce.vzorce.beta.Fyzika_Kinematika_Infovst">
     <ImageView
         android:id="@+id/img_back"
         android:layout_width="60dp"
@@ -145,4 +145,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintVertical_bias="0.7" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="banner_ad_unit_id"
+        tools:layout_editor_absoluteY="501dp"
+        tools:layout_editor_absoluteX="16dp">
+    </com.google.android.gms.ads.AdView>
 </android.support.constraint.ConstraintLayout>

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.vzorce.app.vzorce.Fyzika_MechanikaTuhehoTelesa_MomentZotrvacnosti">
+    tools:context="com.vzorce.vzorce.beta.Fyzika_MechanikaTuhehoTelesa_MomentZotrvacnosti">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
     <ImageView
         android:id="@+id/img_back"
         android:layout_width="60dp"
@@ -19,11 +29,13 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0.0" />
     <TextView
+        android:text="Fyzika > Tuhé teleso > Moment zotrvačnosti"
         android:id="@+id/txt_nav"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:elevation="15dp"
-        android:text="Fyzika > Tuhé teleso > Moment zotrvačnosti"
+        android:elevation="11dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -44,23 +56,24 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <TextView
+        android:text="MOMENT ZOTRVAČNOSTI"
         android:id="@+id/txt_MomentZotrvacnosti"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
-        android:elevation="15dp"
+        android:elevation="10dp"
         android:padding="0dp"
+        android:layout_marginTop="7dp"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="25sp"
-        android:textColor="#ffffff"
-        android:text="MOMENT ZOTRVAČNOSTI"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02"  />
+        app:layout_constraintVertical_bias="0.02"
+        />
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -183,7 +196,7 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-
+                android:layout_marginBottom="80dp"
                 android:background="#808080"
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
@@ -197,4 +210,16 @@
 
         </LinearLayout>
     </ScrollView>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>

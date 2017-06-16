@@ -8,8 +8,10 @@
     <string name="d_b_4ac">D = b² - 4ac</string>
     <string name="a_b_a_b_a_b">a² - b² = ( a + b ) * ( a - b )</string>
     <string name="d_0_x_b_2a">D=0 : x = -b / 2a</string>
-    <string name="fyzika">Fyzika</string>
+    <string name="fyzika">FYZIKA</string>
     <string name="matematika">MATEMATIKA</string>
-    <string name="ch_mia">Chémia</string>
+    <string name="ch_mia">CHÉMIA</string>
     <string name="info">info</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8535198534766691/6379122365</string>
 </resources>

@@ -1,97 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.vzorce.app.vzorce.MainActivity">
+    tools:context="com.vzorce.vzorce.beta.MainActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="380dp"
-        android:layout_height="60dp"
-        android:background="#002EB8"
-        android:elevation="10dp"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/Theme.AppCompat.Light"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintTop_toTopOf="parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:background="#002EB8"
+            android:elevation="10dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/Theme.AppCompat.Light"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/txtVzorce"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="15dp"
-        android:padding="0dp"
-        android:text="VZORCE"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintVertical_bias="0.01" />
-
-    <ScrollView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:scrollbarStyle="insideOverlay">
-        <LinearLayout
+        <TextView
+            android:id="@+id/txtVzorce"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <Button
-                android:id="@+id/btn_Matematika"
-                android:layout_marginTop="80dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:text="Matematika"
-                android:background="#505050"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.2"/>
+            android:elevation="15dp"
+            android:padding="0dp"
+            android:text="VZORCE"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="40sp" />
+
+        <ScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:scrollbarStyle="insideOverlay"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:id="@+id/scrollView2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn_Matematika"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:text="Matematika"
+                    android:background="#505050"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.2"/>
 
 
-            <Button
-                android:id="@+id/btn_Fyzika"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:background="#505050"
-                android:text="Fyzika "
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35" />
+                <Button
+                    android:id="@+id/btn_Fyzika"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#505050"
+                    android:text="Fyzika "
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.35" />
 
-            <Button
-                android:background="#505050"
-                android:id="@+id/btn_Chemia"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
-                android:text="Chémia"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.35"/>
+                <Button
+                    android:background="#505050"
+                    android:id="@+id/btn_Chemia"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:text="Chémia"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.35"/>
 
-        </LinearLayout>
-    </ScrollView>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            tools:layout_editor_absoluteY="514dp"
+            tools:layout_editor_absoluteX="32dp">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+
 </android.support.constraint.ConstraintLayout>
