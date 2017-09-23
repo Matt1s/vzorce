@@ -141,7 +141,7 @@
                     android:layout_marginRight="30dp"
                     android:layout_marginTop="0dp"
                     android:background="#505050"
-                    android:text="Zrezaný ihlan"
+                    android:text="4-boký zrezaný ihlan"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
