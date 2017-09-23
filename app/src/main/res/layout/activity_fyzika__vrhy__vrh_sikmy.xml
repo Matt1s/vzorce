@@ -29,7 +29,7 @@
             app:layout_constraintHorizontal_bias="0"
             app:layout_constraintVertical_bias="0.0" />
         <TextView
-            android:text="Fyzika > Vrhy > Vrh šikmý"
+            android:text="Fyzika > Vrhy > Vrh šikmý >"
             android:id="@+id/txt_nav"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_width="400dp"
+            android:layout_width="match_parent"
             android:layout_height="60dp"
             android:background="#002EB8"
             android:elevation="10dp"

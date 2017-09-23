@@ -476,15 +476,34 @@
             android:name=".Matematika_Rovinne_Kruhy_Nacrt"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Matematika_Geometria_Hranate" />
-        <activity android:name=".Matematika_Geometria_Hranate_Kocka" />
-        <activity android:name=".Matematika_Geometria_Hranate_Kvader" />
-        <activity android:name=".Matematika_Geometria_Hranate_4Ihlan" />
-        <activity android:name=".Matematika_Geometria_Hranate_4ZrezanyIhlan" />
-        <activity android:name=".Matematika_Geometria_Kocka_Nacrt" />
-        <activity android:name=".Matematika_Geometria_Kvader_Nacrt" />
-        <activity android:name=".Matematika_Geometria_4Ihlan_Nacrt" />
-        <activity android:name=".Matematika_Geometria_4ZrezanyIhlan_Nacrt"></activity>
+        <activity android:name=".Matematika_Geometria_Hranate"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Matematika_Geometria_Hranate_Kocka"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Matematika_Geometria_Hranate_Kvader"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Matematika_Geometria_Hranate_4Ihlan"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Matematika_Geometria_Hranate_4ZrezanyIhlan"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Matematika_Geometria_Kocka_Nacrt"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Matematika_Geometria_Kvader_Nacrt"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Matematika_Geometria_4Ihlan_Nacrt"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Matematika_Geometria_4ZrezanyIhlan_Nacrt">
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"
+        </activity>
     </application>
 
 </manifest>

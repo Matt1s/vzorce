@@ -31,7 +31,7 @@
             app:layout_constraintVertical_bias="0.0" />
         <TextView
             android:id="@+id/txt_nav"
-            android:text="Hranaté telesá > Kocka"
+            android:text="Hranaté telesá > Kocka >"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:elevation="11dp"
@@ -124,15 +124,15 @@
                     android:layout_height="100dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:paddingBottom="30dp"
+                    android:paddingBottom="32dp"
                     android:paddingLeft="40dp"
                     android:paddingRight="40dp"
-                    android:paddingTop="30dp"
+                    android:paddingTop="32dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/kockaObjem" />
+                    app:srcCompat="@mipmap/kockaobjem" />
 
                 <TextView
                     android:id="@+id/textView5"
@@ -163,7 +163,7 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/kockaPovrch" />
+                    app:srcCompat="@mipmap/kockapovrch" />
 
                 <TextView
                     android:id="@+id/Up"
@@ -172,7 +172,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="uhlopriečka podstavova"
+                    android:text="uhlopriečka podstavová"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -194,7 +194,7 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/kockaUhloprieckaPodstavova" />
+                    app:srcCompat="@mipmap/kockauhloprieckapodstavova" />
 
                 <TextView
                     android:id="@+id/Ut"
@@ -226,7 +226,7 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/kockaUhloprieckaTelesova" />
+                    app:srcCompat="@mipmap/kockauhloprieckatelesova" />
 
             </LinearLayout>
         </ScrollView>

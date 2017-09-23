@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a7a7a7"
-    tools:context="com.vzorce.vzorce.beta.Chemia">
+    tools:context="com.vzorce.vzorce.beta.Matematika_Vyrazy">
 
     <RelativeLayout
         android:layout_width="0dp"
@@ -16,8 +16,20 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:elevation="15dp"
+            app:srcCompat="@mipmap/ic_back"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintVertical_bias="0.0" />
         <TextView
-            android:text="Chémia >"
+            android:text="Matematika > Výrazy >"
             android:id="@+id/txt_nav"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
@@ -31,33 +43,21 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.07" />
 
-        <ImageView
-            android:id="@+id/img_back"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:elevation="20dp"
-            app:srcCompat="@mipmap/ic_back"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintVertical_bias="0.0" />
-
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="60dp"
             android:background="#002EB8"
             android:elevation="10dp"
+            android:padding="0dp"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:popupTheme="@style/Theme.AppCompat.Light"
-            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteX="-8dp"
             tools:layout_editor_absoluteY="0dp" />
 
         <TextView
-            android:text="CHÉMIA"
-            android:id="@+id/txt_Chemia"
+            android:text="VÝRAZY"
+            android:id="@+id/txt_Vyrazy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -74,96 +74,117 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.02" />
 
-
         <ScrollView
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:scrollbarStyle="insideOverlay"
-            tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="0dp">
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:textAlignment="center">
 
-                <Button
-                    android:id="@+id/btn_LatkoveMnozstvo"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_aba2bb"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:layout_marginTop="80dp"
-                    android:background="#505050"
-                    android:text="Látkove množstvo"
+                    android:layout_marginTop="100dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.2" />
+                    app:srcCompat="@mipmap/vzorec_aplusbnadruhu" />
 
-
-                <Button
-                    android:id="@+id/btn_MolarnyObjem"
-                    android:layout_width="300dp"
-                    android:layout_height="70dp"
-                    android:layout_marginBottom="10dp"
+                <ImageView
+                    android:id="@+id/img_ab_a2bb"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:background="#505050"
-                    android:text="Molárny objem"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.35" />
+                    app:srcCompat="@mipmap/vzorec_aminusbnadruhu" />
 
-                <Button
-                    android:id="@+id/btn_ChemickeMnozstvo"
-                    android:layout_width="300dp"
-                    android:layout_height="70dp"
-                    android:layout_marginBottom="10dp"
+                <ImageView
+                    android:id="@+id/img_ababab"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:background="#505050"
-                    android:text="Chemické množstvo"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.35" />
+                    app:srcCompat="@mipmap/vzorec_anadruhuminusbnadruhu" />
 
-                <Button
-                    android:id="@+id/btn_MolarnaHmotnost"
-                    android:layout_width="300dp"
-                    android:layout_height="70dp"
-                    android:layout_marginBottom="10dp"
+
+
+                <ImageView
+                    android:id="@+id/img_"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:background="#505050"
-                    android:text="Molárna hmotnosť"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.35" />
+                    app:srcCompat="@mipmap/vzorec_aplusbnatretiu" />
 
-                <Button
-                    android:id="@+id/btn_Roztoky"
-                    android:layout_width="300dp"
-                    android:layout_height="70dp"
-                    android:layout_marginBottom="10dp"
+
+                <ImageView
+                    android:id="@+id/img_ababaabb"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="20dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:background="#505050"
-                    android:text="Roztoky"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.35" />
+                    app:srcCompat="@mipmap/vzorec_anatretiuplusbnatretiu" />
+
+                <ImageView
+                    android:id="@+id/img_ab_abaabb"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/vzorec_anatretiuminusbnatretiu" />
 
             </LinearLayout>
         </ScrollView>
@@ -179,6 +200,8 @@
         </com.google.android.gms.ads.AdView>
 
     </RelativeLayout>
+
+
 
 
 </android.support.constraint.ConstraintLayout>

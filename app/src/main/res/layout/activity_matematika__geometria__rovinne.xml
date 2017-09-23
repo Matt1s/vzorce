@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:text="Matematika > Geometria > Rovinné útvary"
+            android:text="Matematika > Geometria > Rovinné útvary >"
             android:id="@+id/txt_nav"
             android:layout_width="300dp"
             android:layout_height="wrap_content"

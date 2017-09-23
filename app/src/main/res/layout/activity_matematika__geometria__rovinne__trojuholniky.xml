@@ -18,7 +18,7 @@
 
 
         <TextView
-            android:text="Geometria > Rovinné útvary > Trojuholníky"
+            android:text="Geometria > Rovinné útvary > Trojuholníky >"
             android:id="@+id/txt_nav"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
