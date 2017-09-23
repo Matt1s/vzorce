@@ -11,12 +11,12 @@ import android.widget.ImageView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-public class Matematika_Geometria extends AppCompatActivity {
+public class Matematika_Geometria_Hranate_4ZrezanyIhlan extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_matematika__geometria);
+        setContentView(R.layout.activity_matematika__geometria__hranate_4_zrezany_ihlan);
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -27,26 +27,18 @@ public class Matematika_Geometria extends AppCompatActivity {
         img_back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context1, Matematika.class);
+                Intent intent = new Intent(context1, Matematika_Geometria_Hranate.class);
                 startActivity(intent);
             }
 
 
         });
-        Button btn_RovinneUtvary = (Button)findViewById(R.id.btn_RovinneUtvary);
-        btn_RovinneUtvary.setOnClickListener(new View.OnClickListener()
+        Button btn_Nacrt = (Button)findViewById(R.id.btn_Nacrt);
+        btn_Nacrt.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Matematika_Geometria_Rovinne.class);
-                startActivity(intent);
-            }});
-        Button btn_HranateTelesa = (Button)findViewById(R.id.btn_HranateTelesa);
-        btn_HranateTelesa.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Matematika_Geometria_Hranate.class);
+                Intent intent = new Intent(getApplicationContext(),Matematika_Geometria_4ZrezanyIhlan_Nacrt.class);
                 startActivity(intent);
             }});
     }

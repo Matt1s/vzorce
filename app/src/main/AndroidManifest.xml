@@ -2,9 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.vzorce.vzorce.beta">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -388,95 +387,104 @@
         <activity
             android:name=".Matematika_Rovinne_Stvoruholniky_Obdlznik"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Geometria_Obdlznik_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Stvoruholniky_Kosostvorec"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Geometria_Kosostvorec_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Stvoruholniky_Kosodlznik"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Geometria_Kosodlznik_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Stvoruholniky_Rovnobeznik"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Stvoruholniky_Lichobeznik"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Geometria_Lichobeznik_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Geometria_Rovnobeznik_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Geometria_Rovinne_Trojuholniky"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Trojuholniky_Pravouhly"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Trojuholniky_Rovnoramenny"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Trojuholniky_Rovnostranny"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Trojuholniky_Vseobecny"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Trojuholniky_Pravouhly_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Trojuholniky_Rovnoramenny_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Trojuholniky_Rovnostranny_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Trojuholniky_Vseobecny_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_nuholnik"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_nuholnik_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Kruhy"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Matematika_Rovinne_Kruhy_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
+        <activity android:name=".Matematika_Geometria_Hranate" />
+        <activity android:name=".Matematika_Geometria_Hranate_Kocka" />
+        <activity android:name=".Matematika_Geometria_Hranate_Kvader" />
+        <activity android:name=".Matematika_Geometria_Hranate_4Ihlan" />
+        <activity android:name=".Matematika_Geometria_Hranate_4ZrezanyIhlan" />
+        <activity android:name=".Matematika_Geometria_Kocka_Nacrt" />
+        <activity android:name=".Matematika_Geometria_Kvader_Nacrt" />
+        <activity android:name=".Matematika_Geometria_4Ihlan_Nacrt" />
+        <activity android:name=".Matematika_Geometria_4ZrezanyIhlan_Nacrt"></activity>
     </application>
 
 </manifest>
