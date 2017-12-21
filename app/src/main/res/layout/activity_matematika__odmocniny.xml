@@ -88,7 +88,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/img_odmocnina_x_nadruhu"
+                    android:id="@+id/img_nta_odmocnina_z_x_na_n"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_marginLeft="30dp"
@@ -102,41 +102,95 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/vzorec_odmocnina_x_nadruhu" />
+                    app:srcCompat="@mipmap/nta_odmocnina_z_x_na_n" />
 
                 <ImageView
-                    android:id="@+id/img_odmocnina_x"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:layout_marginTop="30dp"
-                    android:paddingBottom="10dp"
-                    android:paddingLeft="50dp"
-                    android:paddingRight="50dp"
-                    android:paddingTop="10dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/vzorec_odmocnina_x" />
-
-                <ImageView
-                    android:id="@+id/img_odmocnina_xy"
+                    android:id="@+id/img_nta_odmocnina_z_x"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginTop="0dp"
+                    android:paddingBottom="10dp"
                     android:paddingLeft="50dp"
                     android:paddingRight="50dp"
-                    android:paddingBottom="10dp"
                     android:paddingTop="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/vzorec_odmocnina_xy" />
+                    app:srcCompat="@mipmap/nta_odmocnina_z_x" />
+
+                <ImageView
+                    android:id="@+id/img_nta_odmocnina_z_x_na_m"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="0dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/nta_odmocnina_z_x_na_m" />
+
+                <ImageView
+                    android:id="@+id/img_odmocnina_z_xy"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="0dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/odmocnina_z_xy" />
+
+                <ImageView
+                    android:id="@+id/img_nta_odmocnina_z_mtej_odmocniny"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="0dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/nta_odmocnina_z_mtej_odmocniny" />
+
+                <ImageView
+                    android:id="@+id/img_nta_odmocnina_z_x_delene_y"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="80dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/nta_odmocnina_z_x_delene_y" />
+
+
 
             </LinearLayout>
         </ScrollView>
