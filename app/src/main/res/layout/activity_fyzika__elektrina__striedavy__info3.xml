@@ -25,8 +25,8 @@
 
     <ImageView
         android:id="@+id/img_fT"
-        android:layout_width="170dp"
-        android:layout_height="120dp"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintLeft_toLeftOf="parent"
