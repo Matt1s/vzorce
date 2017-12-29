@@ -476,34 +476,50 @@
             android:name=".Matematika_Rovinne_Kruhy_Nacrt"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Matematika_Geometria_Hranate"
+        <activity
+            android:name=".Matematika_Geometria_Hranate"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Matematika_Geometria_Hranate_Kocka"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Geometria_Hranate_Kocka"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Matematika_Geometria_Hranate_Kvader"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Geometria_Hranate_Kvader"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Matematika_Geometria_Hranate_4Ihlan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Geometria_Hranate_4Ihlan"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Matematika_Geometria_Hranate_4ZrezanyIhlan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Geometria_Hranate_4ZrezanyIhlan"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Matematika_Geometria_Kocka_Nacrt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Geometria_Kocka_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Matematika_Geometria_Kvader_Nacrt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Geometria_Kvader_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Matematika_Geometria_4Ihlan_Nacrt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matematika_Geometria_4Ihlan_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity android:name=".Matematika_Geometria_4ZrezanyIhlan_Nacrt">
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait"
         </activity>
+        <activity android:name=".Fyzika_Magnetizmus" />
+        <activity android:name=".Fyzika_Magnetizmus_Infouilit" />
+        <activity android:name=".Fyzika_Magnetizmus_Infofili" />
+        <activity android:name=".Fyzika_Magnetizmus_Infofinbscosalfa" />
+        <activity android:name=".Fyzika_Magnetizmus_Infofibscosalfa" />
+        <activity android:name=".Fyzika_Magnetizmus_Infouifit" />
+        <activity android:name=".Fyzika_Magnetizmus_Infoemli" />
+        <activity android:name=".Fyzika_Magnetizmus_Infofmbilsinalfa"></activity>
     </application>
 
 </manifest>

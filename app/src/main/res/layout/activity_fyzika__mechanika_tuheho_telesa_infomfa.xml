@@ -90,7 +90,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintVertical_bias="0.5" />
     <TextView
         android:id="@+id/textView2"
@@ -142,7 +142,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.78"
         app:layout_constraintVertical_bias="0.7" />
 
     <com.google.android.gms.ads.AdView

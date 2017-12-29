@@ -56,6 +56,14 @@ public class Fyzika extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),Fyzika_Kinematika.class);
                 startActivity(intent);
             }});
+        Button btn_Magnetizmus = (Button)findViewById(R.id.btn_Magnetizmus);
+        btn_Magnetizmus.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Fyzika_Magnetizmus.class);
+                startActivity(intent);
+            }});
         Button btn_Dynamika = (Button)findViewById(R.id.btn_Dynamika);
         btn_Dynamika.setOnClickListener(new View.OnClickListener()
         {

@@ -101,7 +101,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintHorizontal_bias="0.72"
         app:layout_constraintVertical_bias="0.499" />
     <ImageView
         android:id="@+id/img_t"
@@ -139,7 +139,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.72"
         app:layout_constraintVertical_bias="0.7" />
 
     <com.google.android.gms.ads.AdView

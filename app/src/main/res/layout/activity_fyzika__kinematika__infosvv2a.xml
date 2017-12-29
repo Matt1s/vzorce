@@ -53,7 +53,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintVertical_bias="0.3" />
     <ImageView
         android:id="@+id/imageView7"
@@ -135,7 +135,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintVertical_bias="0.499" />
     <TextView
         android:id="@+id/textView2"
@@ -149,7 +149,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.84"
         app:layout_constraintVertical_bias="0.7" />
     <ImageView
         android:id="@+id/img_v"
@@ -187,7 +187,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintVertical_bias="0.9" />
 
 </android.support.constraint.ConstraintLayout>
