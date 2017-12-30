@@ -83,14 +83,6 @@ public class Matematika extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),Matematika_LinearnaFunkcia.class);
                 startActivity(intent);
             }});
-        Button btn_Linearnarovnica = (Button)findViewById(R.id.btn_Linearnarovnica);
-        btn_Linearnarovnica.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Matematika_LinearnaRovnica.class);
-                startActivity(intent);
-            }});
 
 
 }}

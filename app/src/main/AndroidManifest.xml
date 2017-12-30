@@ -217,10 +217,6 @@
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Matematika_LinearnaRovnica"
-            android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".Fyzika_MechanikaTuhehoTelesa"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait" />
@@ -510,7 +506,7 @@
             android:screenOrientation="portrait" />
         <activity android:name=".Matematika_Geometria_4ZrezanyIhlan_Nacrt">
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"
+            android:screenOrientation="portrait"/>
         </activity>
         <activity android:name=".Fyzika_Magnetizmus" />
         <activity android:name=".Fyzika_Magnetizmus_Infouilit" />
@@ -519,7 +515,7 @@
         <activity android:name=".Fyzika_Magnetizmus_Infofibscosalfa" />
         <activity android:name=".Fyzika_Magnetizmus_Infouifit" />
         <activity android:name=".Fyzika_Magnetizmus_Infoemli" />
-        <activity android:name=".Fyzika_Magnetizmus_Infofmbilsinalfa"></activity>
+        <activity android:name=".Fyzika_Magnetizmus_Infofmbilsinalfa"/>
     </application>
 
 </manifest>

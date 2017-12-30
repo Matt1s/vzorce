@@ -255,27 +255,14 @@
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@mipmap/vzorec_uhlovarychlost" />
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="30dp"
-                    android:layout_marginTop="10dp"
-                    android:text="uhlová rýchlosť"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+
                 <ImageView
                     android:id="@+id/img_omegapit"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:layout_marginTop="0dp"
+                    android:layout_marginTop="10dp"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
                     android:background="#808080"

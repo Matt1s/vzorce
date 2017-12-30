@@ -22,6 +22,8 @@
         android:id="@+id/img_tva"
         android:layout_width="150dp"
         android:layout_height="112dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintLeft_toLeftOf="parent"
