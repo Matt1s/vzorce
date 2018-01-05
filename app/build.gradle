@@ -7,11 +7,16 @@ android {
         applicationId "com.vzorce.vzorce.beta"
         minSdkVersion 21
         targetSdkVersion 25
-        versionCode 12
-        versionName "1.6"
+        versionCode 13
+        versionName "1.61"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+            debuggable false
+
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
