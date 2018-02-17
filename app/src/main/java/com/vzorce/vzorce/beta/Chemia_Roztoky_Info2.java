@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+
 
 public class Chemia_Roztoky_Info2 extends AppCompatActivity {
 
@@ -17,9 +16,7 @@ public class Chemia_Roztoky_Info2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chemia__roztoky__info2);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
 
         ImageView img_back = (ImageView) findViewById(R.id.img_back);
         final Context context =this;

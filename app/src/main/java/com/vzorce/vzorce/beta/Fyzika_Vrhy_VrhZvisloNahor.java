@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 
 public class Fyzika_Vrhy_VrhZvisloNahor extends AppCompatActivity {
 
@@ -16,6 +18,8 @@ public class Fyzika_Vrhy_VrhZvisloNahor extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__vrhy__vrh_zvislo_nahor);
+
+
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();

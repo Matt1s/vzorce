@@ -10,6 +10,8 @@ import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 
 public class Matematika_Geometria_Rovinne_Stvoruholniky extends AppCompatActivity {
 
@@ -18,10 +20,12 @@ public class Matematika_Geometria_Rovinne_Stvoruholniky extends AppCompatActivit
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matematika__geometria__rovinne__stvoruholniky);
 
+
+
+
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-
 
         ImageView img_back = (ImageView) findViewById(R.id.img_back);
         final Context context1 =this;

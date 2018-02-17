@@ -19,13 +19,13 @@
         <TextView
             android:text="Chémia >"
             android:id="@+id/txt_nav"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:elevation="11dp"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintHorizontal_bias="0.80"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -67,7 +67,7 @@
             android:layout_marginTop="7dp"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="25sp"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -76,8 +76,8 @@
 
 
         <ScrollView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
             android:scrollbarStyle="insideOverlay"
             tools:layout_editor_absoluteY="0dp"
             tools:layout_editor_absoluteX="0dp">
@@ -85,48 +85,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:textAlignment="center">
-
-                <Button
-                    android:id="@+id/btn_LatkoveMnozstvo"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:layout_marginTop="80dp"
-                    android:background="#505050"
-                    android:text="Látkove množstvo"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.2" />
-
-
-                <Button
-                    android:id="@+id/btn_MolarnyObjem"
-                    android:layout_width="300dp"
-                    android:layout_height="70dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:background="#505050"
-                    android:text="Molárny objem"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.35" />
+                android:orientation="vertical">
 
                 <Button
                     android:id="@+id/btn_ChemickeMnozstvo"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:layout_marginTop="80dp"
                     android:background="#505050"
                     android:text="Chemické množstvo"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -136,8 +103,24 @@
                     app:layout_constraintVertical_bias="0.35" />
 
                 <Button
+                    android:id="@+id/btn_LatkoveMnozstvo"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#505050"
+                    android:text="Látkove množstvo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.2" />
+
+                <Button
                     android:id="@+id/btn_MolarnaHmotnost"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="30dp"
@@ -151,8 +134,24 @@
                     app:layout_constraintVertical_bias="0.35" />
 
                 <Button
+                    android:id="@+id/btn_MolarnyObjem"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#505050"
+                    android:text="Molárny objem"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.35" />
+
+
+                <Button
                     android:id="@+id/btn_Roztoky"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="30dp"

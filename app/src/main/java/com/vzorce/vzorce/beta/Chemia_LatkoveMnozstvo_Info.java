@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+
 
 public class Chemia_LatkoveMnozstvo_Info extends AppCompatActivity {
 

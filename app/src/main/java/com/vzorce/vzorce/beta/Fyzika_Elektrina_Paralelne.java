@@ -9,6 +9,7 @@ import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 
 public class Fyzika_Elektrina_Paralelne extends AppCompatActivity {
@@ -17,6 +18,8 @@ public class Fyzika_Elektrina_Paralelne extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__elektrina__paralelne);
+
+
 
 
         AdView mAdView = (AdView) findViewById(R.id.adView);

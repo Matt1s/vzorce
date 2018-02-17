@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 
 public class Matematika extends AppCompatActivity {
@@ -22,6 +23,7 @@ public class Matematika extends AppCompatActivity {
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
 
         ImageView img_back = (ImageView) findViewById(R.id.img_back);
         final Context context4 =this;

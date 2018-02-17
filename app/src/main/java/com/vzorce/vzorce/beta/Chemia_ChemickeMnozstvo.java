@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 
 public class Chemia_ChemickeMnozstvo extends AppCompatActivity {
 
@@ -17,9 +19,12 @@ public class Chemia_ChemickeMnozstvo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chemia__chemicke_mnozstvo);
 
+
+
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
 
         ImageView img_Armm = (ImageView) findViewById(R.id.img_Armm);
         final Context context =this;

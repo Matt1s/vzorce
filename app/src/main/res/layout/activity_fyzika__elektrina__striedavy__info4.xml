@@ -37,7 +37,7 @@
     <ImageView
         android:id="@+id/img_N2"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         app:srcCompat="@mipmap/pocetzavitovsekundarnejcievky"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -48,7 +48,7 @@
     <ImageView
         android:id="@+id/img_N1"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         app:srcCompat="@mipmap/pocetzavitovprimarnejcievky"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -59,7 +59,7 @@
     <ImageView
         android:id="@+id/img_U1"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         app:srcCompat="@mipmap/napatie1"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -70,7 +70,7 @@
     <ImageView
         android:id="@+id/img_U2"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         app:srcCompat="@mipmap/napatie2"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -164,7 +164,7 @@
     <TextView
         android:id="@+id/textView9"
         android:layout_width="160dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         android:text="počet závitov sekundárnej cievky"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -173,13 +173,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.40" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="160dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         android:text="počet závitov primárnej cievky"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -188,12 +188,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.50" />
     <TextView
         android:id="@+id/textView11"
         android:layout_width="160dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         android:text="napätie primárnej cievky [V]"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -202,13 +202,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.7" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="170dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         android:text="prúd prechádzajúci sekundárnou cievkou [A]"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -217,13 +217,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.9" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="160dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         android:text="prúd prechádzajúci primárnou cievkou [A]"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -232,12 +232,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.8" />
     <TextView
         android:id="@+id/textView13"
         android:layout_width="160dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         android:text="napätie sekundárnej cievky [V]"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -246,12 +246,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.6" />
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="200dp"
-        android:layout_height="20dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
         android:text="transformačný pomer"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -260,7 +260,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.3" />
 
     <ImageView
@@ -278,7 +278,7 @@
     <ImageView
         android:id="@+id/img_I1"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         app:srcCompat="@mipmap/prud1"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -290,7 +290,7 @@
     <ImageView
         android:id="@+id/img_I2"
         android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         app:srcCompat="@mipmap/prud2"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

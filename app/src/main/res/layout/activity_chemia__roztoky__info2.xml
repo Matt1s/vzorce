@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.0" />
     <ImageView
         android:id="@+id/img_Mmn"
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="120dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -78,8 +78,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
         android:text="Objemový zlomok (roztoku) [bezrozmerné]"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -88,7 +88,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.3" />
 
     <ImageView
@@ -116,8 +116,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
         android:text="Skutočný objem (rozpustnej látky) [kg]"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -126,12 +126,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.85" />
+        app:layout_constraintHorizontal_bias="0.80" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="200dp"
-        android:layout_height="20dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
         android:text="Celkový objem roztoku [kg]"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -140,19 +140,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.7" />
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="banner_ad_unit_id"
-        tools:layout_editor_absoluteY="501dp"
-        tools:layout_editor_absoluteX="16dp">
-    </com.google.android.gms.ads.AdView>
 </android.support.constraint.ConstraintLayout>

@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.0" />
     <ImageView
         android:id="@+id/img_v2ghv"
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="120dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
@@ -42,8 +42,8 @@
         app:layout_constraintVertical_bias="0.3" />
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="200dp"
-        android:layout_height="20dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
         android:text="rýchlosť pri dopade [m/s] "
         android:textAlignment="center"
         android:textColor="#000000"
@@ -52,7 +52,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.3" />
     <ImageView
         android:id="@+id/img_g"
@@ -124,8 +124,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
         android:text="gravitačné zrýchlenie [9.81m/s²] "
         android:textAlignment="center"
         android:textColor="#000000"
@@ -134,12 +134,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.499" />
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="200dp"
-        android:layout_height="20dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
         android:text="výška [m]"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -148,7 +148,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.7" />
     <ImageView
         android:id="@+id/img_h"
@@ -176,8 +176,8 @@
 
     <TextView
         android:id="@+id/img_a"
-        android:layout_width="200dp"
-        android:layout_height="20dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
         android:text="počiatočná rýchlosť [m/s]"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -186,7 +186,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.899" />
 
 </android.support.constraint.ConstraintLayout>

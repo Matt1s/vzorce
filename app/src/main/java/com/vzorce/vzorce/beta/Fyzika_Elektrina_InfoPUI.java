@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+
 
 
 public class Fyzika_Elektrina_InfoPUI extends AppCompatActivity {
@@ -18,9 +17,7 @@ public class Fyzika_Elektrina_InfoPUI extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__elektrina__info_pui);
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
 
         ImageView img_back = (ImageView) findViewById(R.id.img_back);
         final Context context6 =this;
