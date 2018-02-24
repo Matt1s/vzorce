@@ -15,6 +15,14 @@ import com.google.android.gms.ads.MobileAds;
 public class Fyzika_MechanikaTuhehoTelesa_MomentZotrvacnosti extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika_MechanikaTuhehoTelesa.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__mechanika_tuheho_telesa__moment_zotrvacnosti);

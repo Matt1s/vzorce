@@ -15,11 +15,17 @@ import com.google.android.gms.ads.MobileAds;
 public class Fyzika_Elektrina_Seriovo extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika_Elektrina.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__elektrina__seriovo);
-
-
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();

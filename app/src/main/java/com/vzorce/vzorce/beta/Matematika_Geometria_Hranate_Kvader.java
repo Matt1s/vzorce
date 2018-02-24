@@ -16,6 +16,14 @@ import com.google.android.gms.ads.MobileAds;
 public class Matematika_Geometria_Hranate_Kvader extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Matematika_Geometria_Hranate.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matematika__geometria__hranate__kvader);

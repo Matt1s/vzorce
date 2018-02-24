@@ -12,6 +12,14 @@ import android.widget.ImageView;
 public class Fyzika_MechanikeTuhehoTelesa_infoekp extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika_MechanikaTuhehoTelesa.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__mechanike_tuheho_telesa_infoekp);

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Vzorce MAT/FYZ/CHE</string>
     <string name="d_0_x_prazdnamnozina"><![CDATA[D<0 : x = Ø]]></string>
     <string name="a_b_a_plus_2ab_b">( a + b )² = a² + 2ab + b²</string>
     <string name="a_b_a_minus_2ab_b">( a - b )² = a² - 2ab + b²</string>

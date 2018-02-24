@@ -16,10 +16,17 @@ import com.google.android.gms.ads.MobileAds;
 public class Fyzika_Elektrina extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__elektrina);
-
 
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
@@ -31,7 +38,7 @@ public class Fyzika_Elektrina extends AppCompatActivity {
         img_back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context1, Fyzika.class);
+                Intent intent = new Intent(context1,Fyzika.class);
                 startActivity(intent);
             }
 

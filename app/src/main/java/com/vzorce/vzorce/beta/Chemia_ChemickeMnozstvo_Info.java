@@ -12,18 +12,24 @@ import android.widget.ImageView;
 public class Chemia_ChemickeMnozstvo_Info extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Chemia_ChemickeMnozstvo.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chemia__chemicke_mnozstvo__info);
 
-
-
         ImageView img_back = (ImageView) findViewById(R.id.img_back);
-        final Context context =this;
+        final Context backSoft =this;
         img_back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context, Chemia_ChemickeMnozstvo.class);
+                Intent intent = new Intent(backSoft, Chemia_ChemickeMnozstvo.class);
                 startActivity(intent);
             }
 

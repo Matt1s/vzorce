@@ -10,16 +10,24 @@ import android.widget.ImageView;
 public class Matematika_Geometria_4ZrezanyIhlan_Nacrt extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Matematika_Geometria_Hranate_4ZrezanyIhlan.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matematika__geometria_4_zrezany_ihlan__nacrt);
 
         ImageView img_back = (ImageView) findViewById(R.id.img_back);
-        final Context context1 =this;
+        final Context backSoft =this;
         img_back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context1, Matematika_Geometria_Hranate_4ZrezanyIhlan.class);
+                Intent intent = new Intent(backSoft, Matematika_Geometria_Hranate_4ZrezanyIhlan.class);
                 startActivity(intent);
             }
 

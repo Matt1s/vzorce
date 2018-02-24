@@ -12,6 +12,14 @@ import android.widget.ImageView;
 public class Fyzika_Hustota_Info1 extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika_Hustota.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__hustota__info1);
@@ -23,7 +31,7 @@ public class Fyzika_Hustota_Info1 extends AppCompatActivity {
         img_back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(context1, Fyzika.class);
+                Intent intent = new Intent(context1, Fyzika_Hustota.class);
                 startActivity(intent);
             }
 

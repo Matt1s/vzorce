@@ -12,6 +12,14 @@ import android.widget.ImageView;
 public class Fyzika_Vrhy_VrhSikmy_Infodvgsin2alfa extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika_Vrhy_VrhSikmy.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__vrhy__vrh_sikmy__infodvgsin2alfa);

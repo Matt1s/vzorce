@@ -12,6 +12,14 @@ import android.widget.ImageView;
 public class Matematika_Geometria_Stvorec_Nacrt extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Matematika_Geometria_Rovinne_Stvoruholniky_Stvorec.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matematika__geometria__stvorec__nacrt);

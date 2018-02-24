@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.vzorce.vzorce.beta">
 
@@ -509,35 +508,35 @@
         <activity
             android:name=".Matematika_Geometria_4ZrezanyIhlan_Nacrt"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Fyzika_Magnetizmus"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Fyzika_Magnetizmus_Infouilit"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Fyzika_Magnetizmus_Infofili"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Fyzika_Magnetizmus_Infofinbscosalfa"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Fyzika_Magnetizmus_Infofibscosalfa"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Fyzika_Magnetizmus_Infouifit"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Fyzika_Magnetizmus_Infoemli"
             android:configChanges="keyboardHidden"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Fyzika_Magnetizmus_Infofmbilsinalfa"
             android:configChanges="keyboardHidden"

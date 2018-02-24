@@ -10,6 +10,14 @@ import android.widget.ImageView;
 public class Fyzika_Vrhy_VrhVodorovny_Infoyvtgt2 extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika_Vrhy_VrhVodorovny.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__vrhy__vrh_vodorovny__infoyvtgt2);

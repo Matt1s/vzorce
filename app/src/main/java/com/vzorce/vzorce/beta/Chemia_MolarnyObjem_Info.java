@@ -12,6 +12,14 @@ import android.widget.ImageView;
 public class Chemia_MolarnyObjem_Info extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Chemia_MolarnyObjem.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chemia__molarny_objem_info);

@@ -7,7 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class Matematika_Geometria_Kocka_Nacrt extends AppCompatActivity {
+public class
+Matematika_Geometria_Kocka_Nacrt extends AppCompatActivity {
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Matematika_Geometria_Hranate_Kocka.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

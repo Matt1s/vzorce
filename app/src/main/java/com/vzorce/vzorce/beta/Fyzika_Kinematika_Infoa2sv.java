@@ -12,6 +12,15 @@ import android.widget.ImageView;
 public class Fyzika_Kinematika_Infoa2sv extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika_Kinematika.class);
+        startActivity(intent);
+    }
+
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__kinematika__infoa2sv);

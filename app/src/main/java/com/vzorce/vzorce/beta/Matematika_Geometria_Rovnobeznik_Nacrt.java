@@ -11,6 +11,15 @@ import android.widget.ImageView;
 
 public class Matematika_Geometria_Rovnobeznik_Nacrt extends AppCompatActivity {
 
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Matematika_Rovinne_Stvoruholniky_Rovnobeznik.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -15,6 +15,14 @@ import com.google.android.gms.ads.MobileAds;
 public class Fyzika_Kinematika extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__kinematika);
@@ -24,6 +32,18 @@ public class Fyzika_Kinematika extends AppCompatActivity {
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+        ImageView img_back = (ImageView) findViewById(R.id.img_back);
+        final Context backSoft =this;
+        img_back.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(backSoft, Fyzika.class);
+                startActivity(intent);
+            }
+
+
+        });
 
         ImageView img_vst = (ImageView) findViewById(R.id.img_vst);
         final Context context =this;
@@ -91,17 +111,7 @@ public class Fyzika_Kinematika extends AppCompatActivity {
 
 
         });
-        ImageView img_back = (ImageView) findViewById(R.id.img_back);
-        final Context context6 =this;
-        img_back.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(context6, Fyzika.class);
-                startActivity(intent);
-            }
 
-
-        });
 
 
     }

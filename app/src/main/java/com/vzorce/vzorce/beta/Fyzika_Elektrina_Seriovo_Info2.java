@@ -13,6 +13,14 @@ import android.widget.ImageView;
 public class Fyzika_Elektrina_Seriovo_Info2 extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        final Context backHard =this;
+        Intent intent = new Intent(backHard, Fyzika_Elektrina_Seriovo.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fyzika__elektrina__seriovo__info2);
